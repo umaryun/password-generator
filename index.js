@@ -22,11 +22,11 @@ generateBtn.onclick = function () {
         document.getElementById("number-of-characters").value = 1;
     } else {
         if (allowUpperCase.checked) {
-            allowedCharacters += lowerCaseLetters;
+            allowedCharacters += upperCaseLetters;
             allowUpperCase.checked = false;
         }
         if (allowLowerCase.checked) {
-            allowedCharacters += upperCaseLetters;
+            allowedCharacters += lowerCaseLetters;
             allowLowerCase.checked = false;
         }
         if (allowNumbers.checked) {
